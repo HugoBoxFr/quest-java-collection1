@@ -27,4 +27,12 @@ public class Hero {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String display() {
+        return this.getName() + " " + this.getAge();
+    }
+
+    public String displayName() {
+        return this.getName();
+    }
 }
